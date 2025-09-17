@@ -1,7 +1,7 @@
 "use strict"
 
 requirejs.config({
-baseUrl: '../js',
+baseUrl: './js',
 paths: {
 	dogs: '../dogs_playing_poker',
 }
