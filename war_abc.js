@@ -43,12 +43,12 @@ require(["fitText", "fitImage", "Loader", "mousetrap.min"], function (fitText, f
 				console.log(this.state);
 			},
 			"onMenu": function () {
-				fitText(context, "Card Game: Time War", 0, canvas.height/10, canvas.width, canvas.height/5);
+				fitText(context, "Card Game: ABC War", 0, canvas.height/10, canvas.width, canvas.height/5);
 				game.images["characters"] = [];
 				game.images.characters.push(loader.newImageAsset("anpanman.png", onload));
 				game.images.characters.push(loader.newImageAsset("kumamon.png", onload));
 				game.images.characters.push(loader.newImageAsset("miffy.png", onload));
-				game.images.characters.push(loader.newImageAsset("miyakkii_arms_down.png", onload));
+				game.images.characters.push(loader.newImageAsset("mascot.png", onload));
 				game.images.cards = loader.newImageAsset(CARDS_SOURCE, function () {
 					subimageWidth = game.images.cards.width / deck.length;
 					subimageHeight = game.images.cards.height;
