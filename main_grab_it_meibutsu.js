@@ -199,9 +199,9 @@ require(["fitText", "fitImage", "Loader", "mousetrap.min", "fitTextArray", "HatD
 			}
 		}
 	});
-	canvas.addEventListener("touchstart", function (e) {
+	canvas.addEventListener("pointerdown", function (e) {
 		e.preventDefault();
-		var touch = e.touches[0];
+		var touch = e;
 		var x = touch.clientX;
 		var y = touch.clientY;
 		console.log("touchstart", x, y);
