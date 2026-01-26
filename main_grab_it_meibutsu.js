@@ -1,7 +1,7 @@
 "use strict"
 
 requirejs.config({
-baseUrl: '../js',
+baseUrl: 'js',
 paths: {
 	grab_it: '../grab_it'
 }
