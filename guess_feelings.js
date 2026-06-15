@@ -6,9 +6,9 @@ var game = {
 	"images": {}
 }
 
-import fitText from "../js_modules/fitText.mjs";
-import fitImage from "../js_modules/fitImage.mjs";
-import Loader from "../js_modules/Loader.mjs";
+import fitText from "./js_modules/fitText.mjs";
+import fitImage from "./js_modules/fitImage.mjs";
+import Loader from "./js_modules/Loader.mjs";
 import playJanken from "./janken.mjs";
 //require(["fitText", "fitImage", "Loader", "mousetrap.min", "dogs/janken"], function (fitText, fitImage, Loader, Mousetrap, playJanken) {
 function renderTable() {
