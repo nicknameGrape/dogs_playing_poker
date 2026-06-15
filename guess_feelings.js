@@ -149,7 +149,7 @@ function renderHand() {
 				0,
 				subimageWidth,
 				subimageHeight,
-				(-1.5+ progress*3) * .5* canvas.width + i*canvas.width/6*.75,
+				canvas.width*(-1*(1-progress) * 2.5 + .5 + .5*i/(deck.length+1)),
 				//canvas.width*(progress * 2.5 + .5 + .5*i/(deck.length+1)),
 				canvas.height * .7,
 				canvas.width/6,
